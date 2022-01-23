@@ -1,14 +1,14 @@
 {
-    "name": "Big Party",
-    "short_name": "Big-Party.ru",
+    "name": "Astrostudiya",
+    "short_name": "Astrostudiya.ru",
     "icons": [
         {
-            "src": "http://big-party.ru/favicon/android-chrome-192x192.png",
+            "src": "https://astrostudiya.ru/favicon/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "http://big-party.ru/favicon/android-chrome-512x512.png",
+            "src": "https://astrostudiya.ru/favicon/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
