@@ -1,0 +1,272 @@
+/*!
+ * Waves v0.7.5
+ * http://fian.my.id/Waves
+ *
+ * Copyright 2014-2016 Alfiana E. Sibuea and other contributors
+ * Released under the MIT license
+ * https://github.com/fians/Waves/blob/master/LICENSE
+ */
+.waves-effect {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.waves-effect.waves-ripple {
+  position: absolute;
+  width: 100 px;
+  height: 100 px;
+  margin-top: -50 px;
+  margin-left: -50 px;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.2);
+  background:
+    -webkit-radial-gradient(
+      rgba(0, 0, 0, 0.2) 0,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.5) 60%,
+      rgba(255, 255, 255, 0) 70%
+    );
+  background:
+    -o-radial-gradient(
+      rgba(0, 0, 0, 0.2) 0,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.5) 60%,
+      rgba(255, 255, 255, 0) 70%
+    );
+  background:
+    -moz-radial-gradient(
+      rgba(0, 0, 0, 0.2) 0,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.5) 60%,
+      rgba(255, 255, 255, 0) 70%
+    );
+  background:
+    radial-gradient(
+      rgba(0, 0, 0, 0.2) 0,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.5) 60%,
+      rgba(255, 255, 255, 0) 70%
+    );
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: all 0.5 s ease-out;
+  -moz-transition: all 0.5 s ease-out;
+  -o-transition: all 0.5 s ease-out;
+  transition: all 0.5 s ease-out;
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+  -webkit-transform: scale(0) translate(0, 0);
+  -moz-transform: scale(0) translate(0, 0);
+  -ms-transform: scale(0) translate(0, 0);
+  -o-transform: scale(0) translate(0, 0);
+  transform: scale(0) translate(0, 0);
+}
+
+.waves-effect.waves-light.waves-ripple {
+  background: rgba(255, 255, 255, 0.4);
+  background:
+    -webkit-radial-gradient(
+      rgba(255, 255, 255, 0.2) 0,
+      rgba(255, 255, 255, 0.3) 40%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(255, 255, 255, 0) 70%
+    );
+  background:
+    -o-radial-gradient(
+      rgba(255, 255, 255, 0.2) 0,
+      rgba(255, 255, 255, 0.3) 40%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(255, 255, 255, 0) 70%
+    );
+  background:
+    -moz-radial-gradient(
+      rgba(255, 255, 255, 0.2) 0,
+      rgba(255, 255, 255, 0.3) 40%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(255, 255, 255, 0) 70%
+    );
+  background:
+    radial-gradient(
+      rgba(255, 255, 255, 0.2) 0,
+      rgba(255, 255, 255, 0.3) 40%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(255, 255, 255, 0) 70%
+    );
+}
+
+.waves-effect.waves-classic.waves-ripple {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.waves-effect.waves-classic.waves-light.waves-ripple {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.waves-notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.waves-button,
+.waves-circle {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-mask-image: -webkit-radial-gradient(circle, #fff 100%, #000 100%);
+}
+
+.waves-button,
+.waves-button:hover,
+.waves-button:visited,
+.waves-button-input {
+  z-index: 1;
+  font-size: 1em;
+  line-height: 1em;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+}
+
+.waves-button {
+  padding: 0.85em 1.1em;
+  border-radius: 0.2em;
+}
+
+.waves-button-input {
+  padding: 0.85em 1.1em;
+  margin: 0;
+}
+
+.waves-input-wrapper {
+  vertical-align: bottom;
+  border-radius: 0.2em;
+}
+
+.waves-input-wrapper.waves-button {
+  padding: 0;
+}
+
+.waves-input-wrapper .waves-button-input {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.waves-circle {
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.waves-float {
+  -webkit-mask-image: none;
+  -webkit-box-shadow: 0 1px 1.5px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1.5px 1px rgba(0, 0, 0, 0.12);
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.waves-float:active {
+  -webkit-box-shadow: 0 8px 20px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.waves-block {
+  display: block;
+}
+
+/* Waves Container Animation */
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+
+  /* Fix for safari gap */
+  min-height: 100px;
+  max-height: 150px;
+  margin-bottom: -7px;
+}
+
+.content {
+  position: relative;
+
+  /* background: linear-gradient(60deg, rgb(92,107,192) 0%, rgb(174, 184, 236) 100%); */
+  background-color: #ccc;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-duration: 7s;
+  animation-delay: -2s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-duration: 10s;
+  animation-delay: -3s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-duration: 13s;
+  animation-delay: -4s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-duration: 20s;
+  animation-delay: -5s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/* Shrinking for mobile */
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+}

@@ -1,0 +1,190 @@
+<!-- prettier-ignore -->
+<% var data = { 
+    title: "Ошибка 404", 
+    description: "Ничего не найдено", 
+    url: "/",
+    image: "/",
+    canonical: "/" }; %>
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <%= _.template(require('./../includes/head.html').default)(data) %>
+  </head>
+
+  <body class="error404">
+    <header class="scene_element scene_element--fadein">
+      <div class="head_cnt">
+        <a href="index.html" class="logo"
+          ><img src="img/logo.jpg" alt="logo"
+        /></a>
+        <div class="time">Пн-Пт: 9:00 - 19:00, Сб-Вс: выходной</div>
+        <div class="place">г. Екатеринбург, ул. Щорса, д. 5, литер Б</div>
+        <div class="phone">+7 (343) 202-40-22</div>
+        <a class="a_feedback trans popup-show" data-popup="contact" href="#"
+          >Обратная связь</a
+        >
+        <nav class="menu-top-menu-container">
+          <ul id="top-nav" class="top-menu">
+            <li
+              id="menu-item-109"
+              class="
+                menu-item menu-item-type-custom menu-item-object-custom
+                current-menu-item current_page_item
+                menu-item-109
+              "
+            >
+              <a href="index.html#howitworks">Как это работает?</a>
+            </li>
+            <li
+              id="menu-item-19"
+              class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-19
+              "
+            >
+              <a href="oplata-i-dostavka.html">Оплата и доставка</a>
+            </li>
+            <li
+              id="menu-item-110"
+              class="
+                menu-item
+                menu-item-type-custom
+                menu-item-object-custom
+                menu-item-110
+              "
+            >
+              <a href="404.html">Установка деталей</a>
+            </li>
+            <li
+              id="menu-item-111"
+              class="
+                menu-item
+                menu-item-type-custom
+                menu-item-object-custom
+                menu-item-111
+              "
+            >
+              <a href="404.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="menu-top-menu-container">
+          <ul id="menu-mob" class="menu-mob">
+            <li
+              class="
+                menu-item menu-item-type-custom menu-item-object-custom
+                current-menu-item current_page_item
+                menu-item-109
+              "
+            >
+              <a href="index.html#howitworks">Как это работает?</a>
+            </li>
+            <li
+              class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-19
+              "
+            >
+              <a href="oplata-i-dostavka.html">Оплата и доставка</a>
+            </li>
+            <li
+              class="
+                menu-item
+                menu-item-type-custom
+                menu-item-object-custom
+                menu-item-110
+              "
+            >
+              <a href="404.html">Установка деталей</a>
+            </li>
+            <li
+              class="
+                menu-item
+                menu-item-type-custom
+                menu-item-object-custom
+                menu-item-111
+              "
+            >
+              <a href="404.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="mmm-menu"></div>
+    <section class="panel home" style="background-color: rgba(0, 0, 0, 0.8)">
+      <div class="sect_cnt ff_page">
+        <h1>Ошибка 404!</h1>
+        <p>Кажется, Вы свернули не туда...</p>
+        <p>
+          Это демо-версия сайта! Для ознакомления с функционалом наполнены
+          следующие страницы:
+        </p>
+
+        <ol class="allowedpages">
+          <li>
+            Знакомство с принципом работы
+            <a href="http://motor/#howitworks">сайта</a>.
+          </li>
+          <li>Страница выбора <a href="step2.html">марки</a> автомобиля.</li>
+          <li>Страница выбора <a href="step3.html">модели</a> автомобиля.</li>
+          <li>
+            <a href="step4.html">Карточка товара</a> для выбранной модели
+            автомобиля.
+          </li>
+          <li>
+            Страница с
+            <a href="oplata-i-dostavka.html">текстовой инофрмацией</a>.
+          </li>
+        </ol>
+
+        <!-- 		<p>Сдайте <a href="">назад</a>, если вы потерялись и попробуйте проехать в правильном направлении!</p> -->
+      </div>
+    </section>
+
+    <div id="mod_fos" class="modal_div">
+      <span class="modal_close"
+        ><img class="logo" src="./404_files/closein.png" alt=""
+      /></span>
+      <div class="face">
+        <img src="./404_files/face.png" alt="" />
+        <p>Валуев Сергей</p>
+        <span>Главный специалист</span>
+      </div>
+      <div class="fields_center">
+        <label
+          ><input class="f_name" type="text" placeholder="Ваше имя (*)"
+        /></label>
+        <label
+          ><input class="f_phone" type="text" placeholder="Ваш телефон (*)"
+        /></label>
+        <label
+          ><input class="f_email" type="text" placeholder="Ваш VIN-номер"
+        /></label>
+        <br />
+        <form id="koform">
+          <input
+            class="knd_opt"
+            id="ko1"
+            name="ko1"
+            value="1"
+            type="checkbox"
+          /><label for="ko1" class="chckd"
+            >Требуется <span>установка</span></label
+          >
+        </form>
+        <div style="text-align: left">
+          <a class="sbm_btt trans" href="http://motor/error#"
+            >Отправить заявку на подбор</a
+          >
+          <div class="thnx">Ваша заявка успешно отправлена!</div>
+        </div>
+      </div>
+    </div>
+    <%= _.template(require('./../includes/footer.html').default)(data) %>
+    <!-- prettier-ignore -->
+    <%=_.template(require('./../includes/script.html').default)(data) %>
+  </body>
+</html>

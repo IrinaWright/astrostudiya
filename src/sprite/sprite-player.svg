@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!--player-->
+  <symbol viewBox="0 0 14 20" id="ico-play">
+    <path d="M0 18.057V1.943a1 1 0 0 1 1.581-.814l11.28 8.057a1 1 0 0 1 0 1.628L1.58 18.87A1 1 0 0 1 0 18.057z"/>
+  </symbol>
+  <symbol viewBox="0 0 14 16" id="ico-pause">
+    <path d="M1 0C0.447715 0 0 0.447715 0 1V15C0 15.5523 0.447715 16 1 16H4C4.55228 16 5 15.5523 5 15V1C5 0.447715 4.55228 0 4 0H1ZM10 0C9.44771 0 9 0.447715 9 1V15C9 15.5523 9.44771 16 10 16H13C13.5523 16 14 15.5523 14 15V1C14 0.447715 13.5523 0 13 0H10Z"/>
+  </symbol>
+  <symbol viewBox="0 0 24 16" id="ico-next">
+    <path d="M0 0l11 8-11 8V0zm22 8l-11 8V0l11 8zm0 0V0h2v16h-2V8z"/>
+  </symbol>
+  <symbol viewBox="0 0 24 16" id="ico-prev">
+    <path d="M2 8v8H0V0h2v8zm11 0V0L2 8l11 8V8zm0 0l11-8v16L13 8z"/>
+  </symbol>
+  <symbol viewBox="0 0 18 16" id="ico-volume">
+    <path d="M16 8a6.002 6.002 0 0 1-5 5.917v2.021A8.001 8.001 0 0 0 11 .062v2.021c2.838.476 5 2.944 5 5.917zm-2 0a4.002 4.002 0 0 1-3 3.874V4.126c1.725.444 3 2.01 3 3.874zm-7 5.8L4 12H0V5h4l3-2.4L9 1v14l-2-1.2zM4 10H2V7h2.702l.547-.438L7 5.162v6.306l-1.971-1.183L4.554 10H4z"/>
+  </symbol>
+  <symbol viewBox="0 0 16 10" id="ico-list">
+    <path d="M16 2H0V0h16v2zm0 4H0V4h16v2zM0 10h8V8H0v2z"/>
+  </symbol>
+  <symbol viewBox="0 0 9 14" fill="none" id="ico-nav-prev">
+    <path d="M8 1L2 7L8 13" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol viewBox="0 0 9 14" fill="none" id="ico-nav-next">
+    <path d="M1 1L7 7L1 13" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol viewBox="0 0 14 12" id="ico-eq">
+    <path d="M6 0v12h2V0H6zM0 12V5h2v7H0zm3 0V7h2v5H3zm6 0V5h2v7H9zm3-3v3h2V9h-2z"/>
+  </symbol>
+  <symbol viewBox="0 0 24 24" id="ico-eq-mute">
+    <path d="M5 15V9h2v6H5zm3 0V9h2v6H8zm3-6v6h2V9h-2zm3 6V9h2v6h-2zm3-6v6h2V9h-2zM5.586 17L.293 22.293l1.414 1.414L8.414 17H5.586zm10-10h2.828l5.293-5.293L22.293.293 15.586 7z"/>
+  </symbol>
+  <symbol viewBox="0 0 18 14" id="ico-mute">
+    <path d="M4 11L7 12.8L9 14V11.6676V2.33238V0L7 1.2L4 3H2H0V5V9V11H2H4ZM2 9H4H4.55397L5.02899 9.28501L7 10.4676V3.53238L5.02899 4.71499L4.55397 5H4H2V9ZM12.5858 7L10.2929 4.70711L11.7071 3.29289L14 5.58579L16.2929 3.29289L17.7071 4.70711L15.4142 7L17.7071 9.29289L16.2929 10.7071L14 8.41421L11.7071 10.7071L10.2929 9.29289L12.5858 7Z"/>
+  </symbol>
+
+</svg>

@@ -1,0 +1,139 @@
+<footer class="footer">
+  <!--Waves Container-->
+
+  <svg
+    class="waves"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28"
+    preserveAspectRatio="none"
+    shape-rendering="auto"
+  >
+    <defs>
+      <path
+        id="gentle-wave"
+        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+      />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use
+        xlink:href="#gentle-wave"
+        x="48"
+        y="3"
+        fill="rgba(255,255,255,0.5)"
+      />
+      <use
+        xlink:href="#gentle-wave"
+        x="48"
+        y="5"
+        fill="rgba(255,255,255,0.3)"
+      />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+  </svg>
+
+  <!--Waves end-->
+
+  <div class="footer__menu">
+    <div></div>
+    <div></div>
+    <div class="footer__logo">
+      <h3>О компании</h3>
+      <ol>
+        <!-- <li>
+          <a href="index.html#" class="popup-show" data-popup="contact"
+            >Контакты</a
+          >
+        </li> -->
+        <li>
+          <a
+            href="index.html#"
+            class="popup-show"
+            data-popup="contact"
+            data-content="Ссылка Оставить заявку footer"
+            >Оставить заявку</a
+          >
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <div>
+    <p>
+      © 2021 Организация и проведение праздников и корпоративных мероприятий
+    </p>
+  </div>
+
+  <div>
+    <p>
+      <a href="tel:+" class="footer__phone-contac"></a>
+    </p>
+  </div>
+</footer>
+
+<div class="popup-wrapper" id="contact">
+  <div class="popup popup-list-contact">
+    <form method="post" action="index.html" id="form">
+      <div class="form">
+        <div class="group">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="name validate"
+            value=""
+            maxlength="80"
+            placeholder=" "
+          />
+          <!-- <span class="highlight"></span> -->
+          <span class="bar"></span>
+          <label>Имя</label>
+        </div>
+
+        <div class="group">
+          <input
+            type="tel"
+            id="message"
+            name="message"
+            class="tel validate"
+            value=""
+            placeholder=" "
+          />
+          <!-- <span class="highlight"></span> -->
+          <span class="bar"></span>
+          <label>Номер телефона</label>
+        </div>
+
+        <div class="group">
+          <input
+            type="checkbox"
+            id="agree"
+            name="agree"
+            class="validate"
+            title="Поставьте галку"
+          />
+          <label for="agree"
+            >Воспользовавшись данной формой, вы соглашаетесь с
+            <a href="index.html">политикой сайта</a></label
+          >
+        </div>
+
+        <input type="hidden" id="tel" name="tel" value="" />
+
+        <div>
+          <!-- <input type="hidden" name="submitted" value="TRUE"> -->
+          <button type="submit" class="button is-featured" id="send">
+            Отправить заявку
+          </button>
+        </div>
+
+        <p>
+          Оставьте свой номер и наши специалисты свяжутся с вами в ближайшее
+          время, <br />чтобы проконсультировать по услугам и ответить на все
+          ваши вопросы!
+        </p>
+      </div>
+    </form>
+  </div>
+</div>
