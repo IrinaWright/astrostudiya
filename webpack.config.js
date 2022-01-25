@@ -35,7 +35,8 @@ const config = {
     port: 5500,
   },
   devtool: 'source-map',
-  mode: 'production',
+  // mode: 'production',
+  mode: 'development',
   optimization: {
     minimize: true,
     minimizer: [
