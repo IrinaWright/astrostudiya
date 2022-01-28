@@ -1,113 +1,146 @@
 <header class="main-menu" id="main-menu">
+ 
   <nav class="main-menu__nav">
-    <!--         
-    <div class="main-menu__primary">
-        <ul class="main-menu__items">
-            <li class="main-menu__item" data-dropdown="marketing">
-                <a class="main-menu__link" href="index.html">Услуги</a>
-            </li>
-            
-        </ul>
-    </div>
-     -->
-    <div class="main-menu__secondary">
-      <ul class="main-menu__items">
-        <li class="main-menu__item" data-dropdown="contacts">
-          <a class="main-menu__link" href="index.html">Контакты</a>
-        </li>
-        <li style="width: 80px"></li>
-      </ul>
-    </div>
 
-    <div id="logo" class="main-menu__logo">
-      <a class="main-menu__logo-link" href="index.html"></a>
-    </div>
+      
+      <div class="main-menu__primary">
+          <ul class="main-menu__items">
+              <li class="main-menu__item" data-dropdown="marketing">
+                  <a class="main-menu__link" href="">Услуги</a>
+              </li>
+           
+              <li class="main-menu__item" data-dropdown="development-">
+                  <a class="main-menu__link" href="">Блог</a>
+              </li>
 
-    <div class="main-menu__mobile">
-      <a class="main-menu__link">
-        <button class="burger"><span></span></button>
-      </a>
-    </div>
+          </ul>
+      </div>
+      <div class="main-menu__secondary">
+          <ul class="main-menu__items">
+              <li class="main-menu__item" data-dropdown="contacts">
+                  <a class="main-menu__link" href="">Контакты</a>
+              </li>
+              <li class="main-menu__item" data-dropdown="login">
+       
+                  <a class="main-menu__link arrow-button" style="margin-right:30px" href="id/login?action=remote/auth">
+                      Войти
+                      <svg class="arrow-button__hover" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
+                          <g fill-rule="evenodd">
+                              <path class="arrow-button__line" d="M0 5h7"></path>
+                              <path class="arrow-button__tip" d="M1 1l4 4-4 4"></path>
+                          </g>
+                      </svg>
+                  </a>
+
+              </li>
+          </ul>
+      </div>
+      
+      <div class="main-menu__logo">
+          <div class="sun"></div><div class="logo"></div>
+          <a class="main-menu__logo-link" href=""></a>
+      </div>
+      
+      <div class="main-menu__mobile">
+          <a class="main-menu__link">
+              <button class="burger"><span></span></button>
+          </a>
+      </div>
   </nav>
 
   <div class="main-menu__container">
-    <div class="main-menu__bg"></div>
-    <div class="main-menu__arrow"></div>
-    <div class="main-menu__holder">
-      <div class="main-menu__section" data-dropdown="marketing">
-        <div class="main-menu__content main-menu__marketing">
-          <div class="main-menu__box">
-            <div class="main-menu__box-inner">
-              <div>
-                <h2 class="main-menu__box-title content-marketing">
-                  <span class="personal"></span
-                  ><a href="index.html#"
-                    >Свадьба в стиле<br />
-                    Лас-Вегас</a
-                  >
-                </h2>
+      <div class="main-menu__bg"></div>
+      <div class="main-menu__arrow"></div>
+      <div class="main-menu__holder">
+          
+          <div class="main-menu__section" data-dropdown="marketing">
+              <div class="main-menu__content main-menu__marketing">
+                  <div class="main-menu__box">
+                      <div class="main-menu__box-inner">
+                          <div>
+                              <h2 class="main-menu__box-title content-marketing"><span class="personal"></span><a href="#Индивидуальный-гороскоп">Индивидуальный <br>гороскоп</a></h2>
+                          </div>
+                          <div>
+                              <h2 class="main-menu__box-title smm"><span class="repeat"></span><a href="#">Повторная <br>консультация</a></h2>
+                          </div>
+                      </div>
+                      <div class="main-menu__box-inner">
+                          <div>
+                              <h2 class="main-menu__box-title seo"><span class="baby"></span><a href="#Детский-гороскоп">Детский <br>гороскоп</a></h2>
+                          </div>
+                          <div>
+                              <h2 class="main-menu__box-title internet-advertising"><span class="love"></span><a href="#Гороскоп-совместимости">Гороскоп <br>совместимости</a></h2>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-      </div>
+       
+          <div class="main-menu__section" data-dropdown="development">
+              <div class="main-menu__content main-menu__development">
+                  <div class="main-menu__box">
+                      <div class="main-menu__box-inner-full">
+                          <div class="main-menu__box-body">
+                              <h2 class="main-menu__box-title">PWA <span>(Progressive Web Applications)</span></h2>
+                              <ul class="main-menu__box-list">
+                                  <li class="main-menu__box-item"><a href="{$_modx->makeUrl(14)}">PWA для удержания клиента</a></li>
+                                  <li class="main-menu__box-item"><a href="{$_modx->makeUrl(14)}">PWA e-commerce</a></li>
+                              </ul>
+                          </div>
+                          <div class="main-menu__box-footer">
+                              <div class="icon-iphone-x picture-phone-case">
+                                  <div class="icon-pwa picture-phone-logo"></div>
+                                  &nbsp;
+                              </div>
+                              <div class="picture-phone-content">
+                                  <h2>PWA - прогрессивное веб-приложение. </h2>
+                                  <p>Технология позволяет визуально и функционально трансформирмировать сайт в приложение для смартфонов работающих под управлением Android, iPhone, Windows.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        
+          <div class="main-menu__section" data-dropdown="contacts">
+              <div class="main-menu__content main-menu__contacts">
+                  <div class="main-menu__box">
+                      <div class="main-menu__box-inner">
+                          <h2 class="main-menu__box-title">Контакты <span>(Москва)</span></h2>
+                          <h3 class="main-menu__box-title" style="top: -10px; position: relative;"><span>Контактное лицо:</span> Ирина <br><span>(Администратор)</span></h3>
+                          <img class="admin" src="assets/astro/img/administrator-irina.jpg">
+                          <div class="tshop businesscard" itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Organization">
+                              <meta itemprop="name" content="Консультация астролога в Москве">
+                              <ul class="main-menu__box-list">
+                                  <li class="main-menu__box-item"><a href="tel:+79255347750" itemprop="telephone" class="icon-phone">+7 925 534-77-50</a></li>
+                                  <li class="main-menu__box-item"><a href="whatsapp://send?phone=79255347750" itemprop="url" class="icon-whatsapp">WhatsApp</a></li>
+                                  <li class="main-menu__box-item"><a href="tg://resolve?domain=Naumova_Irina" class="icon-telegram">Telegram</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="main-menu__section" data-dropdown="login" style="height: 100px;">
+              <div class="main-menu__content main-menu__login">                    
+                  <div class="main-menu__box">
 
-      <div class="main-menu__section" data-dropdown="contacts">
-        <div class="main-menu__content main-menu__contacts">
-          <div class="main-menu__box">
-            <div class="main-menu__box-inner">
-              <h2 class="main-menu__box-title">
-                Контакты <span>(Москва)</span>
-              </h2>
-              <h3
-                class="main-menu__box-title"
-                style="top: -10px; position: relative"
-              >
-                <span>Контактное лицо:</span> Ирина <br /><span
-                  >(Администратор)</span
-                >
-              </h3>
-              <img class="admin" src="img/administrator-irina.jpg" />
-              <div
-                class="tshop businesscard"
-                itemprop="itemReviewed"
-                itemscope=""
-                itemtype="http://schema.org/Organization"
-              >
-                <meta
-                  itemprop="name"
-                  content="Организация праздников в стиле Las Vegas"
-                />
-                <ul class="main-menu__box-list">
-                  <li class="main-menu__box-item">
-                    <a
-                      href="tel:+79255347750"
-                      itemprop="telephone"
-                      class="icon-phone"
-                      >+7 925 534-77-50</a
-                    >
-                  </li>
-                  <li class="main-menu__box-item">
-                    <a
-                      href="whatsapp://send?phone=79255347750"
-                      itemprop="url"
-                      class="icon-whatsapp"
-                      >WhatsApp</a
-                    >
-                  </li>
-                  <li class="main-menu__box-item">
-                    <a
-                      href="tg://resolve?domain=Naumova_Irina"
-                      class="icon-telegram"
-                      >Telegram</a
-                    >
-                  </li>
-                </ul>
+                          <p style="padding: 20px 0 0;">
+                              <a href="account/">
+                                  <img class="admin stripes__image" src="" style="width: 100px; height: 100px; border-radius: 50%;" />
+                          </a>
+                      </p>
+                      <h3 class="main-menu__box-title"><a title="Выход" href="action=auth/logout">выход</a></h3>
+
+                      <p class="main-menu__box-inner main-menu__box-title main-menu__box-mobile">
+
+                      </p>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
+
       </div>
-    </div>
   </div>
+  
 </header>

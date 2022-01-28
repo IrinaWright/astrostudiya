@@ -371,12 +371,12 @@
 .arrow-button:hover .arrow-button__line {
   opacity: 1;
 }
-
+/* 
 .logo-transform {
   margin: 2px 0 6px 18px;
   transform: scale(0.4);
   transform-origin: left top;
-}
+} */
 
 /*
 .logo-mobile #logo {
@@ -394,11 +394,11 @@
 }
 
 .logo-mobile .logo {
-  bottom: 15%;
-  left: 32%;
-  width: 140px;
-  height: 30px;
-}
+    height: 30px;
+    width: 140px;
+    left: 32%;
+    bottom: 15%;
+  }
 
 .main-menu__nav.bgnav-mobile {
   background: rgba(85, 87, 155, 0.6);
@@ -723,8 +723,8 @@
 @media screen and (min-width: 992px) {
   .main-menu__logo {
     position: absolute;
-    width: 230px;
-    height: 128px;
+    width: 380px;
+    height: 260px;
   }
 
   .main-menu__container {
