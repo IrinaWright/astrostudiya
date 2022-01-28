@@ -78,3 +78,9 @@ main {
   object-position: 50% 50%;
   object-fit: cover;
 }
+
+.mission {
+  font-size: 1.6rem;
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  padding: 30px;
+}

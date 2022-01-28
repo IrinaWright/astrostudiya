@@ -1049,13 +1049,13 @@ display: flex;
 
 @media screen and (min-width: 670px) {
   .jumbotron h1 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 }
 
 @media screen and (min-width: 992px) {
   .jumbotron h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   /*   
