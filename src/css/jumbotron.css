@@ -91,7 +91,7 @@ html.visible body {
   line-height: 1.2;
   font-weight: bold;
   padding: 30px;
-  padding-left: 30%;
+  padding-left: 40%;
   font-size: 2rem;
   opacity: 0;
   -webkit-animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s
@@ -113,6 +113,7 @@ html.visible body {
   position: relative;
   font-family: Camphor, Open Sans, Segoe UI, sans-serif;
   letter-spacing: 2.8px;
+  text-align: left
 }
 
 .text-white {

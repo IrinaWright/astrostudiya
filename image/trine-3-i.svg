@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080" class="natal"> -->
+
+<svg
+   viewBox="-60 -55 980 940"
+   class="natal"
+   version="1.1"
+   id="svg413"
+   sodipodi:docname="trine-3-i.svg"
+   width="980"
+   height="940"
+   inkscape:version="1.1.1 (26b7af14f2, 2022-01-19)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview415"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     width="980px"
+     inkscape:zoom="0.8851313"
+     inkscape:cx="548.50619"
+     inkscape:cy="537.20843"
+     inkscape:window-width="1288"
+     inkscape:window-height="704"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5518"
+     height="940px" />
+  <style
+     id="style2">
+          @font-face {
+  font-family: 'astrostyle';
+  src:url('../fonts/astrostyle.eot');
+  src:url('../fonts/astrostyle.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/astrostyle.svg#astrostyle') format('svg'),
+    url('../fonts/astrostyle.woff') format('woff'),
+    url('../fonts/astrostyle.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+/** Natal Card **/
+        #circle circle {
+            fill: none;
+            stroke: #575757;
+            stroke-width: 1px;
+            }
+        #line path {
+            fill: none;
+            stroke: #575757;
+            stroke-width: 1px;
+            }
+        ellipse {
+          fill: none;
+            stroke:#fe0c00;
+            stroke-width: 1px;
+      }
+        #znaki-big, #znaki, #sun, #znak, #housenumber {
+            letter-spacing: 0;
+            word-spacing: 0;
+            line-height: 125%;
+            font-family: astrostyle;
+            }
+        #znaki-big {
+            font-size: 64px;
+            fill: #4d4d4d;
+            }
+        #znaki {
+            font-size: 40px;
+            fill: #4d4d4d;
+            }
+        #znak text {
+            font-size: 18px;
+            fill: green;
+            }
+        #housenumber text {
+            font-size: 14px;
+            fill: green;
+            }
+        #sun {
+            font-size: 100px;
+            fill: green;
+            }
+        #dot circle {
+            fill: #00e200;
+            }
+        #dot-4 circle {
+            fill: #f80000;
+            }
+        #house path {
+            stroke: lime;
+            }
+        </style>
+  <!-- Дома -->
+  <!-- /Дома -->
+  <!-- Планеты -->
+  <!-- /Планеты -->
+  <!-- Аспекты между планетами -->
+  <defs
+     id="defs355">
+    <ellipse
+       id="ellipse20"
+       cx="357.93793"
+       cy="102.64423"
+       rx="30.587343"
+       ry="15.314463" />
+  </defs>
+  <!-- Соединение -->
+  <!-- Соединение -->
+  <!-- Оппозиция -->
+  <!-- Трин -->
+  <!-- Квадрат -->
+  <!-- Квадрат -->
+  <!-- Квадрат -->
+  <!-- Секстиль -->
+  <!-- Секстиль -->
+  <!-- Секстиль -->
+  <!-- Секстиль -->
+  <!-- Секстиль -->
+  <!-- Секстиль -->
+  <!-- Полуквадрат -->
+  <!-- Полуквадрат -->
+  <!-- Полуквадрат -->
+  <!-- Полусикстиль -->
+  <!-- Полусикстиль -->
+  <!-- Полусикстиль -->
+  <!-- Квиканс -->
+  <!-- Квиканс -->
+  <!-- Квинтиль -->
+  <!-- Квинтиль -->
+  <!-- Квинтиль -->
+  <!-- Квинтиль -->
+  <!-- Септель -->
+  <!-- Наногон -->
+  <!-- Наногон -->
+  <!-- /Аспекты между планетами -->
+  <g
+     id="g3664"
+     transform="translate(-53.099748,-57.046571)">
+    <g
+       id="g5518">
+      <use
+         xlink:href="#ellipse20"
+         transform="matrix(0.95030645,0.34202014,-0.34588326,0.93969262,264.35055,-7.0829289)"
+         id="use357"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#ellipse20"
+         transform="matrix(0.94412522,-0.35836795,0.36241572,0.93358043,8.0775745,250.78968)"
+         id="use359"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <line
+         x1="656.63586"
+         y1="318.30081"
+         x2="313.29297"
+         y2="603.18176"
+         stroke="#ff0000"
+         id="line361"
+         style="stroke-width:1.00563" />
+      <line
+         x1="625.9931"
+         y1="288.52499"
+         x2="264.97992"
+         y2="418.45908"
+         stroke="#0000cc"
+         id="line363"
+         style="stroke-width:1.00563" />
+      <line
+         x1="625.9931"
+         y1="288.52499"
+         x2="303.66196"
+         y2="330.49033"
+         stroke="#ff0000"
+         id="line365"
+         style="stroke-width:1.00563" />
+      <line
+         x1="346.99359"
+         y1="286.11923"
+         x2="313.29297"
+         y2="603.18176"
+         stroke="#ff0000"
+         id="line367"
+         style="stroke-width:1.00563" />
+      <line
+         x1="656.63586"
+         y1="318.30081"
+         x2="346.99359"
+         y2="286.11923"
+         stroke="#ff0000"
+         id="line369"
+         style="stroke-width:1.00563" />
+      <line
+         x1="557.91949"
+         y1="251.21957"
+         x2="346.99359"
+         y2="286.11923"
+         stroke="#0000cc"
+         id="line371"
+         style="stroke-width:1.00563" />
+      <line
+         x1="264.97992"
+         y1="418.45908"
+         x2="393.81253"
+         y2="258.30408"
+         stroke="#0000cc"
+         id="line373"
+         style="stroke-width:1.00563" />
+      <line
+         x1="565.27155"
+         y1="253.86571"
+         x2="346.99359"
+         y2="286.11923"
+         stroke="#0000cc"
+         id="line375"
+         style="stroke-width:1.00563" />
+      <line
+         x1="408.31827"
+         y1="252.51111"
+         x2="264.97992"
+         y2="418.45908"
+         stroke="#0000cc"
+         id="line377"
+         style="stroke-width:1.00563" />
+      <line
+         x1="408.31827"
+         y1="252.51111"
+         x2="625.9931"
+         y2="288.52499"
+         stroke="#0000cc"
+         id="line379"
+         style="stroke-width:1.00563" />
+      <line
+         x1="625.9931"
+         y1="288.52499"
+         x2="393.81253"
+         y2="258.30408"
+         stroke="#0000cc"
+         id="line381"
+         style="stroke-width:1.00563" />
+      <line
+         x1="557.91949"
+         y1="251.21957"
+         x2="393.81253"
+         y2="258.30408"
+         stroke="#ff0000"
+         stroke-dasharray="18, 12"
+         stroke-width="1.00563"
+         id="line383" />
+      <line
+         x1="565.27155"
+         y1="253.86571"
+         x2="393.81253"
+         y2="258.30408"
+         stroke="#ff0000"
+         stroke-dasharray="18, 12"
+         stroke-width="1.00563"
+         id="line385" />
+      <line
+         x1="346.99359"
+         y1="286.11923"
+         x2="264.97992"
+         y2="418.45908"
+         stroke="#ff0000"
+         stroke-dasharray="18, 12"
+         stroke-width="1.00563"
+         id="line387" />
+      <line
+         x1="565.27155"
+         y1="253.86571"
+         x2="656.63586"
+         y2="318.30081"
+         stroke="#00С"
+         stroke-dasharray="18, 12, 0"
+         stroke-width="1.00563"
+         id="line389" />
+      <line
+         x1="656.63586"
+         y1="318.30081"
+         x2="557.91949"
+         y2="251.21957"
+         stroke="#00С"
+         stroke-dasharray="18, 12, 0"
+         stroke-width="1.00563"
+         id="line391" />
+      <line
+         x1="303.66196"
+         y1="330.49033"
+         x2="393.81253"
+         y2="258.30408"
+         stroke="#00С"
+         stroke-dasharray="18, 12, 0"
+         stroke-width="1.00563"
+         id="line393" />
+      <line
+         x1="557.91949"
+         y1="251.21957"
+         x2="313.29297"
+         y2="603.18176"
+         stroke="#0000cc"
+         stroke-dasharray="18, 12"
+         stroke-width="1.00563"
+         id="line395" />
+      <line
+         x1="565.27155"
+         y1="253.86571"
+         x2="313.29297"
+         y2="603.18176"
+         stroke="#0000cc"
+         stroke-dasharray="18, 12"
+         stroke-width="1.00563"
+         id="line397" />
+      <line
+         x1="557.91949"
+         y1="251.21957"
+         x2="303.66196"
+         y2="330.49033"
+         stroke="#00ff00"
+         id="line399"
+         style="stroke-width:1.00563" />
+      <line
+         x1="565.27155"
+         y1="253.86571"
+         x2="303.66196"
+         y2="330.49033"
+         stroke="#00ff00"
+         id="line401"
+         style="stroke-width:1.00563" />
+      <line
+         x1="656.63586"
+         y1="318.30081"
+         x2="393.81253"
+         y2="258.30408"
+         stroke="#00ff00"
+         id="line403"
+         style="stroke-width:1.00563" />
+      <line
+         x1="656.63586"
+         y1="318.30081"
+         x2="408.31827"
+         y2="252.51111"
+         stroke="#00ff00"
+         id="line405"
+         style="stroke-width:1.00563" />
+      <line
+         x1="313.29297"
+         y1="603.18176"
+         x2="264.97992"
+         y2="418.45908"
+         stroke="#ff0000"
+         id="line407"
+         style="stroke-width:1.00563" />
+      <line
+         x1="557.91949"
+         y1="251.21957"
+         x2="408.31827"
+         y2="252.51111"
+         stroke="#a0522d"
+         id="line409"
+         style="stroke-width:1.00563" />
+      <line
+         x1="565.27155"
+         y1="253.86571"
+         x2="408.31827"
+         y2="252.51111"
+         stroke="#a0522d"
+         id="line411"
+         style="stroke-width:1.00563" />
+    </g>
+  </g>
+</svg>
