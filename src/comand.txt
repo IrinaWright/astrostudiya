@@ -1,0 +1,11 @@
+git init
+git add .
+git commit -m "v.01"
+git remote add origin https://github.com/NaumovAleksandr/our-clients.git
+git push -u origin master
+
+***
+
+git add .
+git commit -m "v.02"
+git push -u origin main
